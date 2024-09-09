@@ -116,7 +116,7 @@ function isTrivialVar(v: ConstraintVar, ts: Iterable<Token>, size: number, redir
 /**
  * Produces the call graph.
  */
-function getVisualizerCallGraph(f: FragmentState, vulnerabilities: VulnerabilityResults): VisualizerGraphs {
+export function getVisualizerCallGraph(f: FragmentState, vulnerabilities: VulnerabilityResults): VisualizerGraphs {
     // count number of calls edges for all functions, modules and packages
     const functionCallCounts = new Map<FunctionInfo, number>();
     const moduleCallCounts = new Map<ModuleInfo, number>();
