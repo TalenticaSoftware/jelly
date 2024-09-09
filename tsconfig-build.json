@@ -4,5 +4,6 @@
   "files": [],
   "compilerOptions": {
     "rootDir": "./src",
+   // "declaration": true,
   }
 }
