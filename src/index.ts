@@ -7,7 +7,7 @@ import {VisualizerGraphs, getVisualizerCallGraph} from "./output/visualizer";
 import {FunctionInfo, ModuleInfo, PackageInfo} from "./analysis/infos";
 import {locationToString} from "./misc/util";
 import {funcToStringWithCode} from "./output/tostringwithcode";
-
+import {options} from "./options"
 export { Solver, 
   expand, 
   analyzeFiles, 
@@ -19,7 +19,8 @@ export { Solver,
   ModuleInfo,
   PackageInfo,
   locationToString,
-  funcToStringWithCode
+  funcToStringWithCode,
+  options
 };
 
 
