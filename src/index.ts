@@ -8,6 +8,7 @@ import {FunctionInfo, ModuleInfo, PackageInfo} from "./analysis/infos";
 import {locationToString} from "./misc/util";
 import {funcToStringWithCode} from "./output/tostringwithcode";
 import {options} from "./options"
+import { TSModuleResolver } from "./typescript/moduleresolver";
 export { Solver, 
   expand, 
   analyzeFiles, 
@@ -20,7 +21,8 @@ export { Solver,
   PackageInfo,
   locationToString,
   funcToStringWithCode,
-  options
+  options,
+  TSModuleResolver
 };
 
 
